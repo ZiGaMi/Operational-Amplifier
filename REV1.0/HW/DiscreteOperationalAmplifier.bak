@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DiscreteOperationalAmplifier-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -86,28 +87,6 @@ Connection ~ 3975 1200
 Wire Wire Line
 	3125 2200 3125 2725
 Connection ~ 3125 2200
-$Comp
-L Transistor_BJT:BC847 Q1
-U 1 1 5D2FCAC0
-P 3025 2925
-F 0 "Q1" H 3216 2971 50  0000 L CNN
-F 1 "BC847" H 3216 2880 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3225 2850 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3025 2925 50  0001 L CNN
-	1    3025 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847 Q3
-U 1 1 5D2FD8BA
-P 3400 2600
-F 0 "Q3" H 3591 2646 50  0000 L CNN
-F 1 "BC847" H 3591 2555 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3600 2525 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 3400 2600 50  0001 L CNN
-	1    3400 2600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 5D301EDA
@@ -495,7 +474,7 @@ Connection ~ 5125 1200
 Text Notes 7050 6950 0    157  ~ 31
 Operational Amplifier
 Text Notes 10575 7650 0    50   ~ 10
-REV 0
+REV1.0
 Text Notes 8100 7650 0    50   ~ 10
 17.07.2019
 $Comp
@@ -1257,4 +1236,30 @@ Wire Wire Line
 	8575 2975 9050 2975
 Wire Wire Line
 	8825 1275 9525 1275
+$Comp
+L symbols:BCM847BS U?
+U 1 1 5D2F6965
+P 3125 2925
+F 0 "U?" H 3215 2971 50  0000 L CNN
+F 1 "BCM847BS" H 3215 2880 50  0000 L CNN
+F 2 "" H 3125 2925 79  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1504600.pdf" H 3125 2925 79  0001 C CNN
+F 4 "Farnell" H 3125 2925 79  0001 C CNN "Vendor"
+F 5 "1757902" H 3125 2925 79  0001 C CNN "Vendor Number"
+	1    3125 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L symbols:BCM847BS U?
+U 2 1 5D2F7A8C
+P 3500 2600
+F 0 "U?" H 3591 2600 50  0000 L CNN
+F 1 "BCM847BS" H 3590 2555 50  0001 L CNN
+F 2 "" H 3500 2600 79  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1504600.pdf" H 3500 2600 79  0001 C CNN
+F 4 "Farnell" H 3500 2600 79  0001 C CNN "Vendor"
+F 5 "1757902" H 3500 2600 79  0001 C CNN "Vendor Number"
+	2    3500 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
