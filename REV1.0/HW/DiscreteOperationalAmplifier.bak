@@ -739,4 +739,40 @@ Wire Wire Line
 	4500 6600 4350 6600
 Wire Wire Line
 	4500 6600 4500 7000
+Text Notes 4025 6025 0    79   ~ 16
+Mounting Connector
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5D323FBD
+P 5200 6725
+F 0 "J?" H 5118 7050 50  0000 C CNN
+F 1 "Conn_01x05" H 5118 7051 50  0001 C CNN
+F 2 "footprints:PinHeader_1x5_2.54mm_SMD" H 5200 6725 50  0001 C CNN
+F 3 "~" H 5200 6725 50  0001 C CNN
+	1    5200 6725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6525 5400 6625
+Connection ~ 5400 6625
+Wire Wire Line
+	5400 6625 5400 6725
+Connection ~ 5400 6725
+Wire Wire Line
+	5400 6725 5400 6825
+Connection ~ 5400 6825
+Wire Wire Line
+	5400 6825 5400 6925
+$Comp
+L LOGICchain:GND #PWR?
+U 1 1 5D32FCF2
+P 5400 6925
+F 0 "#PWR?" H 5400 6675 50  0001 C CNN
+F 1 "GND" H 5405 6752 50  0000 C CNN
+F 2 "" H 5400 6925 50  0001 C CNN
+F 3 "" H 5400 6925 50  0001 C CNN
+	1    5400 6925
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 6925
 $EndSCHEMATC

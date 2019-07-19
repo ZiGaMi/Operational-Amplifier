@@ -739,6 +739,116 @@ Wire Wire Line
 	4500 6600 4350 6600
 Wire Wire Line
 	4500 6600 4500 7000
-Text Notes 3800 6000 0    79   ~ 16
+Text Notes 4025 6025 0    79   ~ 16
 Mounting Connector
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5D323FBD
+P 5200 6725
+F 0 "J2" H 5118 7050 50  0000 C CNN
+F 1 "Conn_01x05" H 5118 7051 50  0001 C CNN
+F 2 "footprints:PinHeader_1x5_2.54mm_SMD" H 5200 6725 50  0001 C CNN
+F 3 "~" H 5200 6725 50  0001 C CNN
+	1    5200 6725
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6525 5400 6625
+Connection ~ 5400 6625
+Wire Wire Line
+	5400 6625 5400 6725
+Connection ~ 5400 6725
+Wire Wire Line
+	5400 6725 5400 6825
+Connection ~ 5400 6825
+Wire Wire Line
+	5400 6825 5400 6925
+$Comp
+L LOGICchain:GND #PWR03
+U 1 1 5D32FCF2
+P 5400 6925
+F 0 "#PWR03" H 5400 6675 50  0001 C CNN
+F 1 "GND" H 5405 6752 50  0000 C CNN
+F 2 "" H 5400 6925 50  0001 C CNN
+F 3 "" H 5400 6925 50  0001 C CNN
+	1    5400 6925
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 6925
+$Comp
+L power:+5V #PWR?
+U 1 1 5D336170
+P 2400 6400
+F 0 "#PWR?" H 2400 6250 50  0001 C CNN
+F 1 "+5V" H 2415 6573 50  0000 C CNN
+F 2 "" H 2400 6400 50  0001 C CNN
+F 3 "" H 2400 6400 50  0001 C CNN
+	1    2400 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5D336433
+P 2400 6525
+F 0 "C?" H 2308 6479 50  0000 R CNN
+F 1 "1u" H 2308 6570 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2400 6525 50  0001 C CNN
+F 3 "~" H 2400 6525 50  0001 C CNN
+	1    2400 6525
+	-1   0    0    1   
+$EndComp
+$Comp
+L LOGICchain:GND #PWR?
+U 1 1 5D336699
+P 2400 6700
+F 0 "#PWR?" H 2400 6450 50  0001 C CNN
+F 1 "GND" H 2405 6527 50  0000 C CNN
+F 2 "" H 2400 6700 50  0001 C CNN
+F 3 "" H 2400 6700 50  0001 C CNN
+	1    2400 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6425 2400 6400
+Wire Wire Line
+	2400 6625 2400 6700
+$Comp
+L Device:C_Small C?
+U 1 1 5D3424EC
+P 2750 6525
+F 0 "C?" H 2658 6479 50  0000 R CNN
+F 1 "1u" H 2658 6570 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2750 6525 50  0001 C CNN
+F 3 "~" H 2750 6525 50  0001 C CNN
+	1    2750 6525
+	-1   0    0    1   
+$EndComp
+$Comp
+L LOGICchain:GND #PWR?
+U 1 1 5D3424F2
+P 2750 6700
+F 0 "#PWR?" H 2750 6450 50  0001 C CNN
+F 1 "GND" H 2755 6527 50  0000 C CNN
+F 2 "" H 2750 6700 50  0001 C CNN
+F 3 "" H 2750 6700 50  0001 C CNN
+	1    2750 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6625 2750 6700
+$Comp
+L power:-5V #PWR?
+U 1 1 5D344F39
+P 3075 6325
+F 0 "#PWR?" H 3075 6425 50  0001 C CNN
+F 1 "-5V" H 3090 6498 50  0000 C CNN
+F 2 "" H 3075 6325 50  0001 C CNN
+F 3 "" H 3075 6325 50  0001 C CNN
+	1    3075 6325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3075 6325 2750 6325
+Wire Wire Line
+	2750 6325 2750 6425
 $EndSCHEMATC
