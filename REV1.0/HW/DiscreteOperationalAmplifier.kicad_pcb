@@ -234,7 +234,7 @@
   )
 
   (module Capacitors_SMD:C_0603_HandSoldering (layer F.Cu) (tedit 58AA848B) (tstamp 5D30702C)
-    (at 101.5 43.5 90)
+    (at 101.3 43.5 90)
     (descr "Capacitor SMD 0603, hand soldering")
     (tags "capacitor 0603")
     (path /5D31C27D)
@@ -392,7 +392,7 @@
   )
 
   (module Diodes_SMD:D_SOD-323_HandSoldering (layer F.Cu) (tedit 58641869) (tstamp 5D307085)
-    (at 97.3 51.54 90)
+    (at 97.1 51.54 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /5D355913)
@@ -435,7 +435,7 @@
   )
 
   (module Diodes_SMD:D_SOD-323_HandSoldering (layer F.Cu) (tedit 58641869) (tstamp 5D30709D)
-    (at 95.9 51.5 90)
+    (at 95.8 51.5 90)
     (descr SOD-323)
     (tags SOD-323)
     (path /5D3571F5)
@@ -874,7 +874,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5D307169)
-    (at 103 55 270)
+    (at 102.9 55 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5D30D590)
@@ -910,7 +910,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5D30717A)
-    (at 103 51.3 270)
+    (at 102.9 51.3 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5D30DC61)
@@ -946,7 +946,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5D30718B)
-    (at 98.7 51.54 270)
+    (at 98.5 51.54 270)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5D318299)
@@ -1018,7 +1018,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5D3071AD)
-    (at 97.045 54.48 180)
+    (at 97.045 54.4 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5D3669A9)
@@ -1054,7 +1054,7 @@
   )
 
   (module Resistors_SMD:R_0603_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 5D3071BE)
-    (at 97.135 56.01 180)
+    (at 97.1 56 180)
     (descr "Resistor SMD 0603, hand soldering")
     (tags "resistor 0603")
     (path /5D36665C)
@@ -1090,7 +1090,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering (layer F.Cu) (tedit 58CE4E7F) (tstamp 5D3071D4)
-    (at 100.7 40.2)
+    (at 100.9 40.4)
     (descr "SOT-363, SC-70-6, Handsoldering")
     (tags "SOT-363 SC-70-6 Handsoldering")
     (path /5D2F8B7C)
@@ -1221,7 +1221,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5D307EA2)
-    (at 100.9 51.56 270)
+    (at 100.6 51.5 270)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5D30B3CA)
@@ -1303,7 +1303,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 58CE4E7E) (tstamp 5D307ECC)
-    (at 100.7 55.02 90)
+    (at 100.6 55.02 90)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5D3650AB)
