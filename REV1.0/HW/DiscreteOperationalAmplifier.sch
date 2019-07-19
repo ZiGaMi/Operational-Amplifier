@@ -688,4 +688,57 @@ F 5 "1843678" V 6550 3000 50  0001 C CNN "Vendor Number"
 	1    6550 3000
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5D334D38
+P 4150 6700
+F 0 "J1" H 4068 7025 50  0000 C CNN
+F 1 "Conn_01x05" H 4068 7026 50  0001 C CNN
+F 2 "footprints:PinHeader_1x5_2.54mm_SMD" H 4150 6700 50  0001 C CNN
+F 3 "~" H 4150 6700 50  0001 C CNN
+	1    4150 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5D3396D3
+P 4500 6500
+F 0 "#PWR0101" H 4500 6350 50  0001 C CNN
+F 1 "+5V" H 4515 6673 50  0000 C CNN
+F 2 "" H 4500 6500 50  0001 C CNN
+F 3 "" H 4500 6500 50  0001 C CNN
+	1    4500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR0102
+U 1 1 5D33A543
+P 4500 7000
+F 0 "#PWR0102" H 4500 7100 50  0001 C CNN
+F 1 "-5V" H 4515 7173 50  0000 C CNN
+F 2 "" H 4500 7000 50  0001 C CNN
+F 3 "" H 4500 7000 50  0001 C CNN
+	1    4500 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 6500 4500 6500
+Wire Wire Line
+	4350 6900 4750 6900
+Wire Wire Line
+	4350 6800 4750 6800
+Wire Wire Line
+	4350 6700 4750 6700
+Text Label 4750 6700 2    50   ~ 0
++IN
+Text Label 4750 6800 2    50   ~ 0
+-IN
+Text Label 4750 6900 2    50   ~ 0
+OUT
+Wire Wire Line
+	4500 6600 4350 6600
+Wire Wire Line
+	4500 6600 4500 7000
+Text Notes 3800 6000 0    79   ~ 16
+Mounting Connector
 $EndSCHEMATC
