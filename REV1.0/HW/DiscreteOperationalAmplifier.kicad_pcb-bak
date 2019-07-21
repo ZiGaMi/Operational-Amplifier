@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 16)
-    (tracks 319)
+    (tracks 320)
     (zones 0)
     (modules 37)
     (nets 30)
@@ -180,7 +180,7 @@
     (tags "capacitor 0603")
     (path /5D3424EC)
     (attr smd)
-    (fp_text reference C4 (at 0 -1.25 90) (layer F.SilkS)
+    (fp_text reference C4 (at 0 -1.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.5 90) (layer F.Fab)
@@ -216,7 +216,7 @@
     (tags "capacitor 0603")
     (path /5D336433)
     (attr smd)
-    (fp_text reference C3 (at 0 -1.25 90) (layer F.SilkS)
+    (fp_text reference C3 (at 0 -1.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.5 90) (layer F.Fab)
@@ -288,7 +288,7 @@
     (tags "capacitor 0603")
     (path /5D3A1ACF)
     (attr smd)
-    (fp_text reference C1 (at 0 -1.25 90) (layer F.SilkS)
+    (fp_text reference C1 (at 0 -1.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.5 90) (layer F.Fab)
@@ -324,7 +324,7 @@
     (tags "capacitor 0603")
     (path /5D3A2DF0)
     (attr smd)
-    (fp_text reference C2 (at 0 -1.25 90) (layer F.SilkS)
+    (fp_text reference C2 (at 0 -1.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.5 90) (layer F.Fab)
@@ -360,7 +360,7 @@
     (tags "capacitor 0603")
     (path /5D31C27D)
     (attr smd)
-    (fp_text reference C7 (at 0 -1.25 90) (layer F.SilkS)
+    (fp_text reference C7 (at 0 -1.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 68p (at 0 1.5 90) (layer F.Fab)
@@ -396,7 +396,7 @@
     (tags "capacitor 0603")
     (path /5D3233F9)
     (attr smd)
-    (fp_text reference C8 (at 0 -1.25 90) (layer F.SilkS)
+    (fp_text reference C8 (at 0 -1.25 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 68p (at 0 1.5 90) (layer F.Fab)
@@ -475,7 +475,7 @@
     (tags SOD-323)
     (path /5D355129)
     (attr smd)
-    (fp_text reference D2 (at 0 -1.85) (layer F.SilkS)
+    (fp_text reference D2 (at 0 -1.85) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1N4148WS (at 0.1 1.9) (layer F.Fab)
@@ -518,7 +518,7 @@
     (tags SOD-323)
     (path /5D355913)
     (attr smd)
-    (fp_text reference D3 (at 0 -1.85 90) (layer F.SilkS)
+    (fp_text reference D3 (at 0 -1.85 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1N4148WS (at 0.1 1.9 90) (layer F.Fab)
@@ -561,7 +561,7 @@
     (tags SOD-323)
     (path /5D3571F5)
     (attr smd)
-    (fp_text reference D4 (at 0 -1.85 90) (layer F.SilkS)
+    (fp_text reference D4 (at 0 -1.85 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1N4148WS (at 0.1 1.9 90) (layer F.Fab)
@@ -604,7 +604,7 @@
     (tags "resistor 0603")
     (path /5D3DDEC1)
     (attr smd)
-    (fp_text reference R1 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R1 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 1.55) (layer F.Fab)
@@ -640,7 +640,7 @@
     (tags "resistor 0603")
     (path /5D3DD80A)
     (attr smd)
-    (fp_text reference R2 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 1.55) (layer F.Fab)
@@ -712,7 +712,7 @@
     (tags "resistor 0603")
     (path /5D2FAAB0)
     (attr smd)
-    (fp_text reference R4 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R4 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100R (at 0 1.55) (layer F.Fab)
@@ -748,7 +748,7 @@
     (tags "resistor 0603")
     (path /5D301EDA)
     (attr smd)
-    (fp_text reference R5 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R5 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100R (at 0 1.55 90) (layer F.Fab)
@@ -784,7 +784,7 @@
     (tags "resistor 0603")
     (path /5D304F25)
     (attr smd)
-    (fp_text reference R6 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R6 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100R (at 0 1.55) (layer F.Fab)
@@ -820,7 +820,7 @@
     (tags "resistor 0603")
     (path /5D3025C5)
     (attr smd)
-    (fp_text reference R7 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R7 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100R (at 0 1.55 90) (layer F.Fab)
@@ -856,7 +856,7 @@
     (tags "resistor 0603")
     (path /5D2FB150)
     (attr smd)
-    (fp_text reference R8 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R8 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100R (at 0 1.55) (layer F.Fab)
@@ -892,7 +892,7 @@
     (tags "resistor 0603")
     (path /5D30AB7E)
     (attr smd)
-    (fp_text reference R9 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R9 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1k (at 0 1.55 90) (layer F.Fab)
@@ -928,7 +928,7 @@
     (tags "resistor 0603")
     (path /5D31B480)
     (attr smd)
-    (fp_text reference R10 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R10 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 680R (at 0 1.55 90) (layer F.Fab)
@@ -964,7 +964,7 @@
     (tags "resistor 0603")
     (path /5D3233F3)
     (attr smd)
-    (fp_text reference R11 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R11 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 680R (at 0 1.55 90) (layer F.Fab)
@@ -1000,7 +1000,7 @@
     (tags "resistor 0603")
     (path /5D30D590)
     (attr smd)
-    (fp_text reference R12 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R12 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1k (at 0 1.55 90) (layer F.Fab)
@@ -1036,7 +1036,7 @@
     (tags "resistor 0603")
     (path /5D30DC61)
     (attr smd)
-    (fp_text reference R13 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R13 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 47R (at 0 1.55 90) (layer F.Fab)
@@ -1072,7 +1072,7 @@
     (tags "resistor 0603")
     (path /5D318299)
     (attr smd)
-    (fp_text reference R14 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R14 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 22R (at 0 1.55 90) (layer F.Fab)
@@ -1108,7 +1108,7 @@
     (tags "resistor 0603")
     (path /5D31592E)
     (attr smd)
-    (fp_text reference R15 (at 0 -1.45 90) (layer F.SilkS)
+    (fp_text reference R15 (at 0 -1.45 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 47R (at 0 1.55 90) (layer F.Fab)
@@ -1144,7 +1144,7 @@
     (tags "resistor 0603")
     (path /5D3669A9)
     (attr smd)
-    (fp_text reference R16 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R16 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10R (at 0 1.55) (layer F.Fab)
@@ -1180,7 +1180,7 @@
     (tags "resistor 0603")
     (path /5D36665C)
     (attr smd)
-    (fp_text reference R17 (at 0 -1.45) (layer F.SilkS)
+    (fp_text reference R17 (at 0 -1.45) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10R (at 0 1.55) (layer F.Fab)
@@ -1261,7 +1261,7 @@
     (tags "SOT-363 SC-70-6 Handsoldering")
     (path /5D2F6965)
     (attr smd)
-    (fp_text reference U2 (at 0 -2 90) (layer F.SilkS)
+    (fp_text reference U2 (at 0 -2 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BCM847BS (at 0 2 270) (layer F.Fab)
@@ -1347,7 +1347,7 @@
     (tags SOT-23)
     (path /5D30B3CA)
     (attr smd)
-    (fp_text reference Q4 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference Q4 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BC856 (at 0 2.5 90) (layer F.Fab)
@@ -1388,7 +1388,7 @@
     (tags SOT-23)
     (path /5D310F5D)
     (attr smd)
-    (fp_text reference Q5 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference Q5 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BC847 (at 0 2.5 90) (layer F.Fab)
@@ -1429,7 +1429,7 @@
     (tags SOT-23)
     (path /5D3650AB)
     (attr smd)
-    (fp_text reference Q6 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference Q6 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BC847 (at 0 2.5 90) (layer F.Fab)
@@ -1470,7 +1470,7 @@
     (tags SOT-23)
     (path /5D365D61)
     (attr smd)
-    (fp_text reference Q7 (at 0 -2.5 90) (layer F.SilkS)
+    (fp_text reference Q7 (at 0 -2.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value BC856 (at 0 2.5 90) (layer F.Fab)
@@ -1508,7 +1508,7 @@
   (module footprints:PinHeader_1x5_2.54mm_SMD locked (layer F.Cu) (tedit 5D3160CC) (tstamp 5D317CA1)
     (at 89.1 40.5)
     (path /5D334D38)
-    (fp_text reference J1 (at 0 0.5) (layer F.SilkS)
+    (fp_text reference J1 (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_01x05 (at 0 -0.5) (layer F.Fab)
@@ -1664,13 +1664,14 @@
   (segment (start 97.28 49.57) (end 97.15 49.7) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 99.14 49.57) (end 97.28 49.57) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 100.72 49.57) (end 99.14 49.57) (width 0.1524) (layer F.Cu) (net 3))
+  (segment (start 99.775 53.35) (end 100.725 52.4) (width 0.1524) (layer F.Cu) (net 3))
+  (segment (start 99.775 56.03) (end 99.775 53.35) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 100.725 51.755) (end 100.725 52.4) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 100.32 51.35) (end 100.725 51.755) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 99.42 51.35) (end 100.32 51.35) (width 0.1524) (layer F.Cu) (net 3))
-  (segment (start 99.14 49.57) (end 99.14 51.07) (width 0.1524) (layer F.Cu) (net 3))
-  (segment (start 99.14 51.07) (end 99.42 51.35) (width 0.1524) (layer F.Cu) (net 3))
-  (segment (start 99.775 53.35) (end 100.725 52.4) (width 0.1524) (layer F.Cu) (net 3))
-  (segment (start 99.775 56.03) (end 99.775 53.35) (width 0.1524) (layer F.Cu) (net 3))
+  (segment (start 99.16 51.09) (end 99.42 51.35) (width 0.1524) (layer F.Cu) (net 3))
+  (segment (start 99.14 49.57) (end 99.16 49.59) (width 0.1524) (layer F.Cu) (net 3))
+  (segment (start 99.16 49.59) (end 99.16 51.09) (width 0.1524) (layer F.Cu) (net 3))
   (segment (start 102.59 46.54) (end 102.63 46.58) (width 0.1524) (layer F.Cu) (net 4))
   (segment (start 102.59 44.95) (end 102.59 46.54) (width 0.1524) (layer F.Cu) (net 4))
   (segment (start 104.09 46.55) (end 104.05 46.59) (width 0.1524) (layer F.Cu) (net 5))
@@ -1836,11 +1837,6 @@
   (segment (start 97.11 49.1) (end 97.32 49.31) (width 0.1524) (layer F.Cu) (net 22))
   (segment (start 97.32 49.31) (end 100.55 49.31) (width 0.1524) (layer F.Cu) (net 22))
   (segment (start 100.55 49.31) (end 100.92 48.94) (width 0.1524) (layer F.Cu) (net 22))
-  (segment (start 104.1 52.625) (end 104.1 52.33) (width 0.1524) (layer F.Cu) (net 22))
-  (segment (start 104.1 52.33) (end 103.42 51.65) (width 0.1524) (layer F.Cu) (net 22))
-  (segment (start 103.42 51.65) (end 102.04 51.65) (width 0.1524) (layer F.Cu) (net 22))
-  (segment (start 101.675 51.285) (end 101.675 50.4) (width 0.1524) (layer F.Cu) (net 22))
-  (segment (start 102.04 51.65) (end 101.675 51.285) (width 0.1524) (layer F.Cu) (net 22))
   (via (at 101.72 49.39) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 22))
   (segment (start 101.675 50.4) (end 101.675 49.435) (width 0.1524) (layer F.Cu) (net 22))
   (segment (start 101.675 49.435) (end 101.72 49.39) (width 0.1524) (layer F.Cu) (net 22))
@@ -1851,6 +1847,11 @@
   (segment (start 101.51 47.52) (end 101.28 47.52) (width 0.1524) (layer B.Cu) (net 22))
   (segment (start 101.72 49.39) (end 101.72 47.73) (width 0.1524) (layer B.Cu) (net 22))
   (segment (start 101.72 47.73) (end 101.51 47.52) (width 0.1524) (layer B.Cu) (net 22))
+  (segment (start 101.675 51.285) (end 101.675 50.4) (width 0.1524) (layer F.Cu) (net 22))
+  (segment (start 102.04 51.65) (end 101.675 51.285) (width 0.1524) (layer F.Cu) (net 22))
+  (segment (start 103.28 51.65) (end 102.04 51.65) (width 0.1524) (layer F.Cu) (net 22))
+  (segment (start 104.1 52.625) (end 104.1 52.47) (width 0.1524) (layer F.Cu) (net 22))
+  (segment (start 104.1 52.47) (end 103.28 51.65) (width 0.1524) (layer F.Cu) (net 22))
   (segment (start 101.9 52.64) (end 102.875 52.64) (width 0.1524) (layer F.Cu) (net 23))
   (segment (start 100.44 50.4) (end 100.69 50.65) (width 0.1524) (layer F.Cu) (net 23))
   (segment (start 99.775 50.4) (end 100.44 50.4) (width 0.1524) (layer F.Cu) (net 23))
