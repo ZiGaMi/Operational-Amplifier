@@ -1,130 +1,4 @@
-304763618743222
-Battery_Holders
-Bulgin_BX0036_1xC
-
-
-0
-0
-0
-Battery_Holders
-Keystone_103_1x20mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_104_1x23mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_105_1x2430-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_106_1x20mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_107_1x23mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_1042_1x18650
-
-
-0
-0
-0
-Battery_Holders
-Keystone_1058_1x2032-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_2466_1xAAA
-
-
-0
-0
-0
-Battery_Holders
-Keystone_2468_2xAAA
-
-
-0
-0
-0
-Battery_Holders
-Keystone_2479_3xAAA
-
-
-0
-0
-0
-Battery_Holders
-Keystone_2993
-
-
-0
-0
-0
-Battery_Holders
-Keystone_3000_1x12mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_3001_1x12mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_3008_1x2450-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_3009_1x2450-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Keystone_3034_1x20mm-CoinCell
-
-
-0
-0
-0
-Battery_Holders
-Seiko_MS621F
-
-
-0
-0
-0
+352055823278016
 Buttons_Switches_SMD
 Nidec_Copal_SH-7010A
 
@@ -21392,6 +21266,13 @@ Micro SD
 14
 11
 footprints
+Jing_USB_C_2.0_16pin_receptable
+
+
+0
+16
+11
+footprints
 KEYSTONE 1042 (SMD)
 
 
@@ -29231,6 +29112,111 @@ DirectFET_ST
 0
 0
 0
+KiCAD libs
+Button_6mm_SMD
+
+
+0
+4
+2
+KiCAD libs
+CERALOCK_3.2x1.3
+
+
+0
+3
+3
+KiCAD libs
+ESP-WROOM-2
+
+
+0
+18
+18
+KiCAD libs
+example_soic
+
+
+0
+10
+8
+KiCAD libs
+KEYSTONE 1042 (SMD)
+
+
+0
+2
+2
+KiCAD libs
+KEYSTONE_1042_(SMD)
+
+
+0
+2
+2
+KiCAD libs
+KEYSTONE_1043_THT
+
+
+0
+2
+2
+KiCAD libs
+QFN5x5_0.5Pitch
+
+
+0
+33
+33
+KiCAD libs
+ResistorNetwork_1206
+
+
+0
+8
+8
+KiCAD libs
+SO-8L_Assymetric
+
+
+0
+12
+6
+KiCAD libs
+SolderJumper_0805
+
+
+0
+2
+2
+KiCAD libs
+TentedVia_0.3_0.7
+
+
+0
+1
+1
+KiCAD libs
+USB_Micro-B_10103594-0001LF_fixed
+Micro USB Type B 10103594-0001LF
+USB USB_B USB_micro USB_OTG
+0
+17
+6
+KiCAD libs
+USB_Micro_USB_Wurth
+
+
+0
+9
+6
+KiCAD libs
+WE-PD_WurthPowerInductor
+
+
+0
+2
+2
 LEDs
 LED-L1T2_LUMILEDS
 
@@ -29925,12 +29911,26 @@ LOGICchain
 10
 10
 LOGICchain
-7SegmentLCD_10x32
-4 digit 7 segment green LED, http://www.kingbrightusa.com/images/catalog/SPEC/CA56-11GWA.pdf
-4 digit 7 segment green LED
+APBA3010SURKCGKC-GX
+
+
 0
-12
-12
+3
+3
+LOGICchain
+BananaSocket4mm
+
+
+0
+1
+1
+LOGICchain
+BatteryConnector_CR2032
+
+
+0
+4
+2
 LOGICchain
 Button_6mm_SMD
 
@@ -29938,13 +29938,6 @@ Button_6mm_SMD
 0
 4
 2
-LOGICchain
-CCM_Compact
-
-
-0
-4
-4
 LOGICchain
 CERALOCK_3.2x1.3
 
@@ -29967,12 +29960,26 @@ Coil_Wurth_10u_2.1A
 2
 2
 LOGICchain
+CON2_R1.27mm
+
+
+0
+2
+2
+LOGICchain
 CON4_R1.27mm
 
 
 0
 4
 4
+LOGICchain
+CON5_R1.27mm
+
+
+0
+5
+5
 LOGICchain
 CON_SF_UBL_LEDs
 
@@ -29988,6 +29995,13 @@ CON_SF_UBL_POWER
 4
 4
 LOGICchain
+Crystal_Murata3Pin
+
+
+0
+3
+3
+LOGICchain
 DC_link_con_1x2
 
 
@@ -30001,27 +30015,6 @@ DC_mot_con_1x2
 0
 2
 2
-LOGICchain
-DIN-7
-
-
-0
-9
-8
-LOGICchain
-DIN-8
-
-
-0
-10
-9
-LOGICchain
-EC11E09244BS
-
-
-0
-7
-6
 LOGICchain
 ESP-WROOM-2
 
@@ -30037,12 +30030,12 @@ example_soic
 10
 8
 LOGICchain
-FuseHRC_10x38mm
-
-
+Hirose_DM3AT-SF-PEJM5
+Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)
+Micro SD
 0
-2
-2
+14
+11
 LOGICchain
 KEYSTONE 1042 (SMD)
 
@@ -30065,6 +30058,55 @@ KEYSTONE_1043_THT
 2
 2
 LOGICchain
+LGA-12_2x2mm_Pitch0.5mm_My
+LGA12
+lga land grid array
+0
+12
+12
+LOGICchain
+LIS2DW12_LGA14
+
+
+0
+14
+14
+LOGICchain
+MeasurementPoint_0.75mm
+
+
+0
+1
+1
+LOGICchain
+MolexMicroFit3.0_1x02P3.00mm
+Molex Micro-Fit 3.0 Connector System, 43650-0200 (compatible alternatives: 43650-0201, 43650-0202), 2 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 top entry
+0
+2
+2
+LOGICchain
+MolexMicroFit3.0_1x04P3.00mm
+Molex Micro-Fit 3.0 Connector System, 43650-0400 (compatible alternatives: 43650-0401, 43650-0402), 4 Pins per row (https://www.molex.com/pdm_docs/sd/436500300_sd.pdf), generated with kicad-footprint-generator
+connector Molex Micro-Fit_3.0 top entry
+0
+4
+4
+LOGICchain
+MolexMicroFit3_436500512
+
+
+0
+7
+7
+LOGICchain
+Molex_MicroFit_3.0-43045-0810_08x3.00mm_Angled_My
+Molex Micro-Fit 3.0 connector, PN:43045-0810, top entry type, SMDhttp://www.molex.com/pdm_docs/sd/430450210_sd.pdf
+conn molex micro fit 3.0
+0
+6
+4
+LOGICchain
 Motor_screw_3mm
 
 
@@ -30072,19 +30114,47 @@ Motor_screw_3mm
 1
 1
 LOGICchain
-MyLogo
+NX1001-04SMS
 
 
 0
+6
+6
+LOGICchain
+Pin_Header_Straight_1x05_Pitch2.54mm
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
 0
-0
+5
+5
 LOGICchain
 PowerFLAT
 
 
 0
-14
+30
 6
+LOGICchain
+ProgrammingPin_2x1mm
+
+
+0
+1
+1
+LOGICchain
+QFN-48-1EP_7x7mm_Pitch0.5mm
+UK Package; 48-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_48_05-08-1704.pdf)
+QFN 0.5
+0
+64
+49
+LOGICchain
+QFN-48_EP_7x7_Pitch0.5mm
+
+
+0
+56
+49
 LOGICchain
 QFN5x5_0.5Pitch
 
@@ -30107,6 +30177,13 @@ QFN_26
 26
 26
 LOGICchain
+QFP-48_7x7_Pitch0.5mm
+
+
+0
+49
+49
+LOGICchain
 QFP_26
 
 
@@ -30121,7 +30198,7 @@ ResistorNetwork_1206
 8
 8
 LOGICchain
-SLIMdrive660S
+SLIMDrive660S
 
 
 0
@@ -30135,7 +30212,7 @@ SO-8L_Assymetric
 12
 6
 LOGICchain
-SOD-882
+SOD882
 
 
 0
@@ -30156,11 +30233,32 @@ SolderJumper_0805
 2
 2
 LOGICchain
-SOT1289
-Schottky Diode , 60V/10A
-PMEG060V100
+SOT-23_Custom
+SOT-23, Standard
+SOT-23
 0
 3
+3
+LOGICchain
+SRN3015_Bourns_inductors
+
+
+0
+2
+2
+LOGICchain
+SW_DIP_x2_W7.62mm_Slide_no3D
+2x-dip-switch, Slide, row spacing 7.62 mm (300 mils)
+DIP Switch Slide 7.62mm 300mil
+0
+4
+4
+LOGICchain
+SW_Tactile_SKHH_AngledMy
+tactile switch 6mm ALPS SKHH right angle http://www.alps.com/prod/info/E/HTML/Tact/SnapIn/SKHH/SKHHLUA010.html
+tactile switch 6mm ALPS SKHH right angle
+0
+4
 2
 LOGICchain
 TentedVia_0.3_0.6
@@ -30171,6 +30269,13 @@ TentedVia_0.3_0.6
 1
 LOGICchain
 TentedVia_0.3_0.7
+
+
+0
+1
+1
+LOGICchain
+TestPoint
 
 
 0
@@ -30191,13 +30296,6 @@ uMAX-10
 11
 11
 LOGICchain
-USBMicro_629105150521_WE
-
-
-0
-11
-7
-LOGICchain
 USB_Micro-B_10103594-0001LF_fixed
 Micro USB Type B 10103594-0001LF
 USB USB_B USB_micro USB_OTG
@@ -30211,6 +30309,13 @@ USB_Micro_USB_Wurth
 0
 9
 6
+LOGICchain
+VFQFPN-48_7x7_Pitch0.5mm
+
+
+0
+54
+49
 LOGICchain
 WE-PD_WurthPowerInductor
 
