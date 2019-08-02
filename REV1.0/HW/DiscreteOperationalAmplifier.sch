@@ -465,7 +465,7 @@ Wire Wire Line
 Connection ~ 5475 1425
 Wire Wire Line
 	5475 1425 6125 1425
-Text Notes 8475 3075 0    79   ~ 16
+Text Notes 8800 3075 0    79   ~ 16
 OUT
 Text Notes 1275 5975 0    79   ~ 16
 Capacitors Bypass
@@ -547,7 +547,7 @@ Text Notes 5000 3350 0    50   ~ 0
 Matched
 Text Notes 4950 2375 0    50   ~ 0
 Matched
-Text Notes 8125 3250 0    50   ~ 10
+Text Notes 8450 3250 0    50   ~ 10
 Iout(max.) = 100mA
 $Comp
 L Device:R_Small R2
@@ -574,12 +574,12 @@ $EndComp
 Wire Notes Line width 20 style solid
 	3250 1300 3250 4975
 Wire Notes Line width 20 style solid
-	3250 4975 7950 4975
+	3250 4975 8275 4975
 Wire Notes Line width 20 style solid
-	7950 4975 7950 1300
+	8275 4975 8275 1300
 Wire Notes Line width 20 style solid
-	7950 1300 3250 1300
-Text Label 8275 3050 2    50   ~ 0
+	8275 1300 3250 1300
+Text Label 8600 3050 2    50   ~ 0
 OUT
 Wire Wire Line
 	4250 3150 3650 3150
@@ -594,7 +594,7 @@ Text Notes 2525 3200 0    79   ~ 16
 Text Notes 2525 2875 0    79   ~ 16
 +IN
 Wire Wire Line
-	7300 3050 8275 3050
+	7300 3050 8600 3050
 $Comp
 L Device:R_Small R16
 U 1 1 5D3669A9
@@ -851,4 +851,8 @@ Wire Wire Line
 	3075 6325 2750 6325
 Wire Wire Line
 	2750 6325 2750 6425
+Text Notes 7400 2300 0    50   ~ 0
+place BC817 for \nhigher current \ncapability
+Text Notes 7400 4000 0    50   ~ 0
+place BC817 for \nhigher current \ncapability
 $EndSCHEMATC
